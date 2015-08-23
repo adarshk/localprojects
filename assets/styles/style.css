@@ -1,0 +1,50 @@
+html {
+  	box-sizing: border-box;
+  	font-size: 100%;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+*, *:before, *:after {
+  	box-sizing: inherit;
+}
+
+body {
+	background: #F4F6F8;
+	color: #303030;
+	font-family: "Open Sans", sans-serif;
+	text-align: center;
+}
+
+img {
+	max-width: 100%;
+}
+
+hr {
+	display: block;
+	height: 1px;
+	max-width: 85%;
+	border-color:#CED4DB;
+}
+
+.page {
+	width: 100%;
+	overflow: hidden;
+}
+
+.header {
+	padding: 20px;
+	background-color: #FFFFFF;
+}
+
+.logo a {
+	text-decoration: none;
+}
+
+.logo span {
+	color: #000;
+	display: block;
+	margin: auto;
+	font-size: 1.5em;
+	font-weight: 900;
+	letter-spacing: 0.03em;
+}
