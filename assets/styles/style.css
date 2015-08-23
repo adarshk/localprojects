@@ -48,3 +48,54 @@ hr {
 	font-weight: 900;
 	letter-spacing: 0.03em;
 }
+
+.seclections {
+	background: #FFF;
+	position: relative;
+}
+
+.selections button {
+	background: #5094CF;
+	border-radius: 2px;
+	color: #FFFFFF;
+	border: none;
+	width: 10em;
+	height: 3em;
+	margin:2em 1em;
+	font-size: 1em; 
+}
+
+.selections button:focus {
+	outline: none;
+}
+
+.selections button:hover {
+	border: 3px solid #00A0D8;
+	background-color: #FFF;	
+	color: #00A0D8;
+}
+
+.clearfix:before
+.clearfix:after {
+	display: block;
+	content: "";
+}
+
+.clearfix:after {
+	clear: both;
+	content: "";
+   	display: block; 
+   	height: 0;
+}
+
+.section {
+	width: 90%;
+	max-width: 1020px;
+	background-color: #FFFFFF;
+	margin: 1em auto;
+	border: 1px solid #CED4DB;
+}
+
+.container {
+	position: relative;
+}
