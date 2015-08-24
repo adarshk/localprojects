@@ -44,19 +44,27 @@ hr {
 	color: #000;
 	display: block;
 	margin: auto;
-	font-size: 1.5em;
+	font-size: 2em;
+	font-family: "Open Sans", sans-serif;
 	font-weight: 900;
 	letter-spacing: 0.03em;
+	text-decoration: none;
+}
+
+.logo a:hover {
+	color: #FFF;
+	text-decoration: none;
 }
 
 .seclections {
 	background: #FFF;
 	position: relative;
+
 }
 
 .selections button {
 	background: #5094CF;
-	border-radius: 2px;
+	border-radius: 5px;
 	color: #FFFFFF;
 	border: none;
 	width: 10em;
@@ -88,7 +96,7 @@ hr {
    	height: 0;
 }
 
-.section {
+.section-admin {
 	width: 90%;
 	max-width: 1020px;
 	background-color: #FFFFFF;
@@ -96,6 +104,42 @@ hr {
 	border: 1px solid #CED4DB;
 }
 
+
 .container {
-	position: relative;
+	width: 100%;
+	/*position: relative;*/
+}
+
+.card-container {
+	width: 80%;
+	margin: 0 auto; 
+	/*margin-left: 2em;*/
+}
+
+.card-container form {
+	margin: 2em 0;
+}
+
+.card-container .dropdown {
+	margin: 2em 0;
+}
+
+.card-container .submit-question {
+	width: 70%;
+	background: #5094CF;
+	border-radius: 5px;
+	color: #FFFFFF;
+	border: none;
+	height: 3em;
+	margin:2em 1em;
+	font-size: 1em;
+	text-shadow: none;
+}
+
+.card-container .dropdown .dropdown-menu {
+	/*margin: 2em auto;	*/
+}
+
+.form-group label {
+	font-size: 1.3em; 
 }

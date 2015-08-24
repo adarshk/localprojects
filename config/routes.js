@@ -33,12 +33,22 @@ module.exports.routes = {
   ***************************************************************************/
 
   '/': {
-    view: 'homepage'
+    view: 'game'
   },
 
   'POST /Token': 'TokensController.create',
+  'POST /TokenUpdate': 'TokensController.update',
+  'POST /TokenDelete': 'TokensController.delete',
+  'GET /Token': 'TokensController.show',
+  'GET /TokensAll': 'TokensController.showAll',
 
-  'GET /Token': 'TokensController.show'
+  '/admin': 'ViewsController.admin',
+
+  'POST /addQuestion': 'QuestionsController.addQuestion',
+  'POST /updateQuestion': 'QuestionsController.updateQuestion',
+  'POST /deleteQuestion': 'QuestionsController.deleteQuestion',
+  'GET /getAllQuestions': 'QuestionsController.getAllQuestions',
+  'GET /getQuestion': 'QuestionsController.getQuestion',
 
   /***************************************************************************
   *                                                                          *

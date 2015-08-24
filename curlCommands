@@ -1,0 +1,2 @@
+curl -X POST --data 'question="Test question3"' http://localhost:1337/addquestion
+curl http://localhost:1337/getallquestions

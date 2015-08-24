@@ -31,13 +31,34 @@
     <!--STYLES-->
     <!--link rel="stylesheet" href="/styles/importer.css"-->
     <link rel="stylesheet" href="/styles/reset.css">
+    <link rel="stylesheet" href="/styles/bootstrap.css">
+    <link rel="stylesheet" href="/styles/bootstrap-theme.css">
     <link rel="stylesheet" href="/styles/style.css">
     <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
     <!--STYLES END-->
   </head>
 
   <body>
-    {{{body}}}
+
+
+        <div class="site">
+          <div class="page">
+            <div class="header">
+              <div class="logo">
+                <a href="#"><span>LocalProjects</span></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="selections clearfix">
+          <a href="/"><button class="btn btn-game" type="button">Game</button></a>
+          <a href="/admin"><button class="btn btn-admin" type="button">Admin</button></a>
+        </div>
+
+        <div class="section">
+          {{{body}}}
+        </div>
 
 
 
@@ -93,6 +114,8 @@
     <!--SCRIPTS-->
     <script src="/js/dependencies/sails.io.js"></script>
     <script src="/js/dependencies/jquery-2.1.4.min.js"></script>
+    <script src="/js/dependencies/bootstrap.min.js"></script>
+    <script src="/js/scripts/control.js"></script>
     <!--SCRIPTS END-->
   </body>
 </html>
