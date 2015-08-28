@@ -118,6 +118,13 @@ hr {
 	/*position: relative;*/
 }
 
+.td-yes:hover{
+	background-color: #D9D0BF;
+}
+
+.td-no:hover{
+	background-color: #D9D0BF;
+}
 
 
 /*.questions-ans {
